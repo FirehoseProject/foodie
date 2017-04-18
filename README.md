@@ -23,3 +23,29 @@ The file `sql/seed.sql` includes the table structure for the database.  For easi
 |  cost | INT  |
 |  vegetarian_friendly | BOOLEAN  |
 
+### Users
+
+| field  | type  |
+|---|---|
+| id  | SERIAL PRIMARY KEY NOT NULL  |
+| email  |  VARCHAR(255) |
+
+### Ratings
+
+| field  | type  |
+|---|---|
+| id  | SERIAL PRIMARY KEY NOT NULL  |
+| stars  |  INT |
+| user_id  | INT  |
+| restaurant_id  | INT  |
+
+
+### Menu Items
+
+| field  | type  |
+|---|---|
+| id  | SERIAL PRIMARY KEY NOT NULL  |
+| name  |  VARCHAR(255) |
+| description  | VARCHAR  |
+| cost  | DECIMAL  |
+| restaurant_id  | INT  |
