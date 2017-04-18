@@ -6,7 +6,7 @@ This is pretty typical in real-world scenarios for web applications that are mai
 
 The foodie database is a database that mirrors real world examples and will allow you to run queries against it, similar to what you'd might need to do on the job.
 
-This project includes random data generation using random numbers and the `faker` gem to populate this with sample data.
+This project includes random data generation using random numbers and the `faker` gem to populate this with sample data.  While things like the restaurant names, and descriptions will have silly values, things like multiple star ratings, and varying priced menu items will give you a feel for what a typical database is at a real company.
 
 ## Table Structure
 
