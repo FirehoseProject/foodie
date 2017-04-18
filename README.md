@@ -68,3 +68,7 @@ sh install.sh
 ```
 
 It will take several minutes to complete.
+
+## License
+
+The Foodie database is released under the [MIT License](http://www.opensource.org/licenses/MIT).
