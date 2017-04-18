@@ -49,3 +49,22 @@ The file `sql/seed.sql` includes the table structure for the database.  For easi
 | description  | VARCHAR  |
 | cost  | DECIMAL  |
 | restaurant_id  | INT  |
+
+
+## Installation
+
+First clone the project into your environment:
+
+```
+git clone git@github.com:FirehoseProject/foodie.git
+```
+
+The SQL files are a little over 85 megabytes, so it may take a bit of time for the command to finish.
+
+The `install.sh` script will execute the five different `sql` scripts required to populate the database.
+
+```
+sh install.sh
+```
+
+It will take several minutes to complete.
