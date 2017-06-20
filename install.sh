@@ -1,4 +1,7 @@
 #!/bin/bash
+psql <<EOF
+  CREATE DATABASE foodie;
+EOF
 
 psql foodie -f sql/seed.sql
 psql foodie -f sql/users.sql

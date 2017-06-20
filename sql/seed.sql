@@ -1,5 +1,4 @@
 -- psql postgres
-CREATE DATABASE foodie;
 
 CREATE TABLE restaurants (
 	id SERIAL PRIMARY KEY NOT NULL,
