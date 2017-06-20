@@ -1,6 +1,5 @@
 -- psql postgres
--- CREATE DATABASE foodie;
--- CTRL + D
+CREATE DATABASE foodie;
 
 CREATE TABLE restaurants (
 	id SERIAL PRIMARY KEY NOT NULL,
